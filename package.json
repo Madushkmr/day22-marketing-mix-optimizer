@@ -1,0 +1,19 @@
+{
+  "name": "day22-marketing-mix-optimizer",
+  "version": "1.0.0",
+  "description": "Day 22 of a daily AI-app series (BI focus): marketing mix modeling (adstock + saturation response curves, backtest-blended ensemble) with a greedy budget reallocation optimizer, scenario simulator, Flask-style REST API/dashboard, SQLite persistence, and tests.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-data": "node scripts/generate_sample_data.js",
+    "fit": "node cli.js fit",
+    "test": "node --test tests/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
